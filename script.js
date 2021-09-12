@@ -16,7 +16,7 @@ $(document).ready(function() {
 		}
 	})
 
-	Check for button click
+	// Check for button click
 	inputBtn.on('click vclick', function() {
 		alert("testing")
 		// Check if text is empty
