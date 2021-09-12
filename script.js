@@ -1,12 +1,11 @@
 $(function() {
-	const input = $('input')
+	const input = $('input','#input-wrapper')
 	const inputBtn = $('button','#input-wrapper')
 	// Check for "enter" keypress
-	input.keyup(function(e) {
+	input.keydown(function(e) {
 		let key = e.which
 		if(key == '13') {
-			alert("testing")
-			console.log("testing")
+			alert("testing2")
 			// Check if text is empty
 			if(input.val() != '') {
 				createTask()
@@ -19,7 +18,6 @@ $(function() {
 	// Check for button click
 	inputBtn.on('click vclick', function() {
 		alert("testing")
-		console.log("testing")
 		// Check if text is empty
 		if(input.val() != '') {
 			createTask()
