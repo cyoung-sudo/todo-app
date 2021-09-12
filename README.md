@@ -15,3 +15,4 @@ A basic to-do app used to add, edit, and remove tasks.
 
 ## Support
 - [ ] Mobile not supported
+- [x] Chrome Lighthouse perfect score
