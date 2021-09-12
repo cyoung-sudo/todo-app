@@ -1,7 +1,6 @@
-const input = $('input','#input-wrapper')
-const inputBtn = $('button','#input-wrapper')
-
-$(document).ready(function() {
+$(function() {
+	const input = $('input','#input-wrapper')
+	const inputBtn = $('button','#input-wrapper')
 	// Check for "enter" keypress
 	input.keyup(function(e) {
 		let key = e.which
