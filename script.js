@@ -2,28 +2,28 @@ $(function() {
 	const input = $('input','#input-wrapper')
 	const inputBtn = $('button','#input-wrapper')
 	// Check for "enter" keypress
-	input.keydown(function(e) {
+	input.on('keydown', function(e) {
 		let key = e.which
 		if(key == '13') {
 			alert("testing2")
 			// Check if text is empty
-			if(input.val() != '') {
-				createTask()
-			} else {
-				alert("Text field is empty...")
-			}
+			// if(input.val() != '') {
+			// 	createTask()
+			// } else {
+			// 	alert("Text field is empty...")
+			// }
 		}
 	})
 
 	// Check for button click
-	inputBtn.on('click vclick', function() {
+	inputBtn.on('click', function() {
 		alert("testing")
 		// Check if text is empty
-		if(input.val() != '') {
-			createTask()
-		} else {
-			alert("Text field is empty...")
-		}
+		// if(input.val() != '') {
+		// 	createTask()
+		// } else {
+		// 	alert("Text field is empty...")
+		// }
 	})
 
 	// Create "new task" element
