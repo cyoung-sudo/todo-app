@@ -1,17 +1,17 @@
 # To-Do App
 A basic to-do app used to add, edit, and remove tasks.
 
-## Preview:
+## Preview
 ![Preview](/images/preview.png)
 
-## Website Link:
+## Website Link
 [Github Page Link](https://cyoung-sudo.github.io/todo-app/)
 
-## Programming Languages:
+## Programming Languages
 * HTML
 * CSS
 * Javascript
 * JQuery
 
 ## Support
-- [ ] Mobile
+- [ ] Mobile not supported
