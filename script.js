@@ -7,6 +7,7 @@ $(document).ready(function() {
 		let key = e.which
 		if(key == '13') {
 			alert("testing")
+			console.log("testing")
 			// Check if text is empty
 			if(input.val() != '') {
 				createTask()
@@ -19,6 +20,7 @@ $(document).ready(function() {
 	// Check for button click
 	inputBtn.on('click vclick', function() {
 		alert("testing")
+		console.log("testing")
 		// Check if text is empty
 		if(input.val() != '') {
 			createTask()
