@@ -1,5 +1,5 @@
 $(function() {
-	const input = $('input','#input-wrapper')
+	const input = $('input')
 	const inputBtn = $('button','#input-wrapper')
 	// Check for "enter" keypress
 	input.keyup(function(e) {
