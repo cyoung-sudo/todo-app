@@ -12,3 +12,6 @@ A basic to-do app used to add, edit, and remove tasks.
 * CSS
 * Javascript
 * JQuery
+
+## Support
+- [ ] Mobile
