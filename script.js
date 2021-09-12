@@ -6,7 +6,6 @@ $(document).ready(function(){
 	input.on('keydown', function(e) {
 		let key = e.which
 		if(key == '13') {
-			alert("testing")
 			// Check if text is empty
 			if(input.val() != '') {
 				createTask()
@@ -17,8 +16,7 @@ $(document).ready(function(){
 	})
 
 	// Check for button click
-	inputBtn.on('click tap', function() {
-		alert("testing")
+	inputBtn.on('click', function() {
 		// Check if text is empty
 		if(input.val() != '') {
 			createTask()
