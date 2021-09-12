@@ -3,7 +3,7 @@ const inputBtn = $('button','#input-wrapper')
 
 $(document).ready(function() {
 	// Check for "enter" keypress
-	input.keypress(function(e) {
+	input.keyup(function(e) {
 		let key = e.which
 		if(key == '13') {
 			// Check if text is empty
@@ -16,7 +16,7 @@ $(document).ready(function() {
 	})
 
 	// Check for button click
-	inputBtn.click(function() {
+	inputBtn.on('click vclick', function() {
 		// Check if text is empty
 		if(input.val() != '') {
 			createTask()
